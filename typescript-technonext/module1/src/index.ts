@@ -106,3 +106,6 @@
 //   return value * value;
 // });
 // console.log(arr1);
+
+
+let myfriend: string[] = ["John", "Jane", "Jack"];
