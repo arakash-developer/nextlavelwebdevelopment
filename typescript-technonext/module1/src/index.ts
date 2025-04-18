@@ -78,6 +78,7 @@
 // console.log(add1(5, 10));
 
 // obect ---> function ==> method
+// normal function work this but not in arrow function
 // let poorUser = {
 //   name: "John",
 //   amount:50,
@@ -87,10 +88,21 @@
 // };
 // console.log(poorUser.addbalaced(1000));
 
-
 // const arr :number[] = [1,2,3,4,5,6,7,8,9,10];
 // let arr1:number[] = arr.map((value:number):number => {
 //   return value * value;
-// }); 
+// });
 // console.log(arr1);
- 
+
+// function
+// let add =(a:number, b:number):number => {
+// return a + b;
+// }
+// let a = add(5, 10);
+// console.log(a);
+
+// let arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr1: number[] = arr.map((value: number): number => {
+//   return value * value;
+// });
+// console.log(arr1);
