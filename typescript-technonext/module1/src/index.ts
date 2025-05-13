@@ -118,7 +118,7 @@
 
 // console.log("myfriend");
 
-// spread Operator
+//* spread Operator
 // const bros1: string[] = ["John", "Jane", "Jack"];
 
 // const bros2: string[] = ["Jill", "Joe", "Jim"];
@@ -143,6 +143,51 @@
 //     ...myfriend,
 //     ...myfriend2,
 //     }
+
+//* rest  Operator
+// const friendsList = (...sss:string[])=> {
+//   console.log(sss);
+// }
+// friendsList("s", "a", "d", "f");
+
+//* object destructuring
+// const person = {
+//   name: "John",
+//   age: 25,
+//   isStudent: true,
+//   school: "ABC School",
+//   friend:{
+//     name: "Jane",
+//     age: 22,
+//   }
+// };
+// const { name, age, isStudent, school,friend:{name:friendName, age:friendAge} } = person;
+// console.log(name);
+// console.log(friendName);
+// console.log(friendAge);
+// console.log(person.friend.name);
+
+//* array destructuring
+// const arr: number[] = [1, 2, 3, 4, 5];
+// const [a,b,number,c ] = arr;
+// const [a,b,...akash ] = arr;
+// console.log(b);
+// console.log(akash);
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
