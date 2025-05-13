@@ -108,4 +108,14 @@
 // console.log(arr1);
 
 
-let myfriend: string[] = ["John", "Jane", "Jack"];
+// let myfriend: string[] = ["John", "Jane", "Jack"];
+// let a = {
+//     name:"Akash",
+//     printName: function() {
+//         console.log(this.name);
+//     }
+// }
+// a.printName();
+
+// console.log("myfriend");
+
