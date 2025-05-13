@@ -119,30 +119,30 @@
 // console.log("myfriend");
 
 // spread Operator
-const bros1: string[] = ["John", "Jane", "Jack"];
+// const bros1: string[] = ["John", "Jane", "Jack"];
 
-const bros2: string[] = ["Jill", "Joe", "Jim"];
+// const bros2: string[] = ["Jill", "Joe", "Jim"];
 
-bros1.push(...bros2);
+// bros1.push(...bros2);
 
-const myfriend: {
-  ty: string;
-  tp: string;
-} = {
-  ty: "John",
-  tp: "Jane",
-};
-const myfriend2: {
-  ty: string;
-  tp: string;
-} = {
-  ty: "John",
-  tp: "Jane",
-};
-const mentorList ={
-    ...myfriend,
-    ...myfriend2,
-    }
+// const myfriend: {
+//   ty: string;
+//   tp: string;
+// } = {
+//   ty: "John",
+//   tp: "Jane",
+// };
+// const myfriend2: {
+//   ty: string;
+//   tp: string;
+// } = {
+//   ty: "John",
+//   tp: "Jane",
+// };
+// const mentorList ={
+//     ...myfriend,
+//     ...myfriend2,
+//     }
 
 
 
