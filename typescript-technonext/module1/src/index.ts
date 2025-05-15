@@ -173,9 +173,37 @@
 // const [a,b,...akash ] = arr;
 // console.log(b);
 // console.log(akash);
-  
-// type alias
 
+// //* type alias
+// type Student = {
+//   name: string;
+//   age: number;
+//   isStudent: boolean;
+//   school: string;
+// };
+
+// const isStudent: Student = {
+//   name: "John",
+//   age: 25,
+//   isStudent: true,
+//   school: "ABC School",
+// };
+// type userName = string;
+// const userName: userName = "John";
+// type isadmin = boolean;
+// const isAdmin: isadmin = true;
+// type Add = (num1: number, num2: number) => number;
+// const add: Add = (num1, num2) => {
+//   return num1 + num2;
+// };
+// console.log(add(5, 10));
+
+
+//* union type
+// type ID = number | string;
+// let id: ID = 123;
+// id = "123";
+// id:"akash";     
 
 
 
