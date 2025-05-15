@@ -174,6 +174,8 @@
 // console.log(b);
 // console.log(akash);
   
+// type alias
+
 
 
 
