@@ -199,15 +199,44 @@
 // console.log(add(5, 10));
 
 
-//* union type
+//* union type |
 // type ID = number | string;
 // let id: ID = 123;
 // id = "123";
 // id:"akash";     
 
+//* intersection type &
+// type Admin = {
+//   name: string;
+//   role: number;
+// };
+// type User = {
+//   name: string;
+//   age: number;
+// };
+// type AdminUser = Admin & User;
+// const adminUser: AdminUser = {
+//   name: "John",
+//   role: 1,
+//   age: 25,
+// };
 
 
-
+//*  nullable types
+// type Admin = {
+//   name: string;
+//   role: number;
+// };
+// type User = {
+//   name: string;
+//   age: number | null;
+// };
+// type AdminUser = Admin & User;
+// const adminUser: AdminUser = {
+//   name: "John",
+//   role: 1,
+//   age: null,
+// };
 
 
 
