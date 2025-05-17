@@ -325,7 +325,6 @@
 // getSpeeedMeterPerSecond("10 km/h dfwsgvs");
 // getSpeeedMeterPerSecond(null);
 
-
 //* never types
 // const printError = (message: string): never => {
 //   throw new Error(message);
@@ -333,15 +332,5 @@
 
 // printError("Error Akash");
 
-
-
-
-
-
-
-
-
-
-
-
-
+// * type assertion
+//  
