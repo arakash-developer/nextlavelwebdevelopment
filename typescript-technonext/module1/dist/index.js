@@ -107,3 +107,111 @@
 // }
 // a.printName();
 // console.log("myfriend");
+//* spread Operator
+// const bros1: string[] = ["John", "Jane", "Jack"];
+// const bros2: string[] = ["Jill", "Joe", "Jim"];
+// bros1.push(...bros2);
+// const myfriend: {
+//   ty: string;
+//   tp: string;
+// } = {
+//   ty: "John",
+//   tp: "Jane",
+// };
+// const myfriend2: {
+//   ty: string;
+//   tp: string;
+// } = {
+//   ty: "John",
+//   tp: "Jane",
+// };
+// const mentorList ={
+//     ...myfriend,
+//     ...myfriend2,
+//     }
+//* rest  Operator
+// const friendsList = (...sss:string[])=> {
+//   console.log(sss);
+// }
+// friendsList("s", "a", "d", "f");
+//* object destructuring
+// const person = {
+//   name: "John",
+//   age: 25,
+//   isStudent: true,
+//   school: "ABC School",
+//   friend:{
+//     name: "Jane",
+//     age: 22,
+//   }
+// };
+// const { name, age, isStudent, school,friend:{name:friendName, age:friendAge} } = person;
+// console.log(name);
+// console.log(friendName);
+// console.log(friendAge);
+// console.log(person.friend.name);
+//* array destructuring
+// const arr: number[] = [1, 2, 3, 4, 5];
+// const [a,b,number,c ] = arr;
+// const [a,b,...akash ] = arr;
+// console.log(b);
+// console.log(akash);
+// //* type alias
+// type Student = {
+//   name: string;
+//   age: number;
+//   isStudent: boolean;
+//   school: string;
+// };
+// const isStudent: Student = {
+//   name: "John",
+//   age: 25,
+//   isStudent: true,
+//   school: "ABC School",
+// };
+// type userName = string;
+// const userName: userName = "John";
+// type isadmin = boolean;
+// const isAdmin: isadmin = true;
+// type Add = (num1: number, num2: number) => number;
+// const add: Add = (num1, num2) => {
+//   return num1 + num2;
+// };
+// console.log(add(5, 10));
+//* union type |
+// type ID = number | string;
+// let id: ID = 123;
+// id = "123";
+// id:"akash";     
+//* intersection type &
+// type Admin = {
+//   name: string;
+//   role: number;
+// };
+// type User = {
+//   name: string;
+//   age: number;
+// };
+// type AdminUser = Admin & User;
+// const adminUser: AdminUser = {
+//   name: "John",
+//   role: 1,
+//   age: 25,
+// };
+//*  nullable types
+// type Admin = {
+//   name: string;
+//   role: number;
+// };
+// type User = {
+//   name: string;
+//   age: number | null;
+// };
+// type AdminUser = Admin & User;
+// const adminUser: AdminUser = {
+//   name: "John",
+//   role: 1,
+//   age: null,
+// };
+
+console.log("akash");

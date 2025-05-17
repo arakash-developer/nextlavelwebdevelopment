@@ -198,12 +198,11 @@
 // };
 // console.log(add(5, 10));
 
-
 //* union type |
 // type ID = number | string;
 // let id: ID = 123;
 // id = "123";
-// id:"akash";     
+// id:"akash";
 
 //* intersection type &
 // type Admin = {
@@ -221,7 +220,6 @@
 //   age: 25,
 // };
 
-
 //*  nullable types
 // type Admin = {
 //   name: string;
@@ -237,6 +235,32 @@
 //   role: 1,
 //   age: null,
 // };
+// //*Union type
+// type ID = number | string;
+// let id: ID = 123;
+// id = "123";
+// console.log({id});
+
+// //*intesection type
+// type FrontendDeveloper = {
+//   skills: string[];
+//   degicnation1: string;
+// };
+// type BackendDeveloper = {
+//   skills: string[];
+//   degicnatio2: string;
+// };
+// type FullstackDeveloper = FrontendDeveloper & BackendDeveloper;
+// const akash: FullstackDeveloper = {
+//   skills: ["HTML", "CSS", "JavaScript"],
+//   degicnation1: "Frontend Developer",
+//   degicnatio2: "Backend Developer",
+// };
+// console.log(akash);
+
+
+
+
 
 
 
