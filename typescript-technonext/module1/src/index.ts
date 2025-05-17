@@ -260,7 +260,6 @@
 // };
 // console.log(akash);
 
-
 // * nulish coalescing operator
 // null / undefined ----> decition making
 // const isauthenticated:null = null;
@@ -268,12 +267,35 @@
 // let result1 = isauthenticated ?? "Guest";
 // console.log({result1});
 
-
-
-
-
-
-
+// // Best Use Case
+// type user = {
+//   name: string;
+//   age: number;
+//   isStudent: boolean;
+//   school: string;
+//   address: {
+//     city: string;
+//     state: string;
+//     country: string;
+//     presentAddress: string;
+//     permanentAddress?: string;
+//   };
+// };
+// const isStudent: user = {
+//   name: "John",
+//   age: 25,
+//   isStudent: true,
+//   school: "ABC School",
+//   address: {
+//     city: "New York",
+//     state: "NY",
+//     country: "USA",
+//     presentAddress: "123 Main St",
+//   },
+// };
+// let permanentAddress =
+//   isStudent?.address?.permanentAddress ?? "No Permanent Address";
+// console.log({ permanentAddress });
 
 
 
