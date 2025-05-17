@@ -1,3 +1,5 @@
+// ts-node-dev --respawn --transpile-only server.ts
+
 // // string,
 // let a:string = "Hello World";
 // console.log(a);
@@ -259,7 +261,12 @@
 // console.log(akash);
 
 
-
+// * nulish coalescing operator
+// null / undefined ----> decition making
+// const isauthenticated:null = null;
+// const isauthenticated:undefined = undefined;
+// let result1 = isauthenticated ?? "Guest";
+// console.log({result1});
 
 
 
