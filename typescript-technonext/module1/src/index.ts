@@ -267,7 +267,7 @@
 // let result1 = isauthenticated ?? "Guest";
 // console.log({result1});
 
-// // Best Use Case
+//* Best Use Case
 // type user = {
 //   name: string;
 //   age: number;
@@ -297,10 +297,38 @@
 //   isStudent?.address?.permanentAddress ?? "No Permanent Address";
 // console.log({ permanentAddress });
 
+//* nullable types
+// const searchName = (value: string | null) => {
+//   if (value) {
+//     console.log(value, "Seraching...");
+//   } else {
+//     console.log("No value found");
+//   }
+// };
+// searchName(null);
+//* unknown types
+// const getSpeeedMeterPerSecond = (value: unknown) => {
+//   if (typeof value === "number") {
+//     const convertedSpeed = (value * 1000) / 3600;
+//     console.log(convertedSpeed);
+//   }
+//   if (typeof value === "string") {
+//     let [d, v] = value.split(" ");
+//     let makeNumber = parseFloat(d);
+//     const convertedSpeed = (makeNumber * 1000) / 3600;
+//     console.log(convertedSpeed);
+//   }else{
+//     console.log("Invalid Input");
+//   }
+// };
+// getSpeeedMeterPerSecond(10);
+// getSpeeedMeterPerSecond("10 km/h dfwsgvs");
+// getSpeeedMeterPerSecond(null);
 
 
+//* never types
+// const printError = (message: string): never => {
+//   throw new Error(message);
+// };
 
-
-
-
-
+// printError("Error Akash");
