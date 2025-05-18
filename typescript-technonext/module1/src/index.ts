@@ -335,9 +335,27 @@
 // * type assertion
 
 //*Generic type
-// type GenericArray<T> = Array<T>;
+type GenericArray<T> = Array<T>;
 // const strArray: GenericArray<string> = ["a", "b", "c"];
 // const numArray: GenericArray<number> = [1, 2, 3];
 // const rollNumbers: GenericArray<number> = [1, 2, 3, 4, 5];
 // const rollNumbers2: Array<number> = [1, 2, 3, 4, 5];
 // const rollNumbers1: Array<string> = ["1", "2", "3", "4", "5"];
+
+// interface User {
+//   name: string;
+//   age: number;
+//   isStudent: boolean;
+//   school: string;
+// }
+
+// let user1: GenericArray<User> = [
+//   {
+//     name: "John",
+//     age: 25,
+//     isStudent: true,
+//     school: "ABC School",
+//   },
+// ];
+
+// //* Generic interface 
